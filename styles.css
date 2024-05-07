@@ -1,0 +1,252 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+	margin: 0px;
+    padding: 0px;
+	font-family: 'Product Sans', sans-serif;
+}
+
+nav{
+    background-color: #FF5B59;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+nav img{
+    height: 200px;
+    width: 200px;
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
+nav .onglets{
+    margin-top: 3px;
+}
+nav .onglets a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+    padding-bottom: 5px;
+}
+
+header{
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+header h4{
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+header h4.Pdebut {
+    font-family: 'Product Sans', sans-serif;
+    font-size: 40px;
+    color: #000;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+header h4.Pfin {
+    font-family: 'Product Sans', sans-serif;
+    font-size: 40px;
+    color: #FF5B59;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+header p {
+    font-family: 'Product Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 0px;
+    text-align: center;
+}
+header button {
+    padding: 10px 20px;
+    background-color: #000;
+    color:#fff;
+    border:none;
+    border-radius: 20px;
+    margin-bottom: -20px;
+    outline:none;
+    font-size: 20px;
+    font-family: 'Product Sans', sans-serif;
+    cursor: pointer;
+    -webkit-animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.main {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main h1 {
+    font-size: 30px;
+    text-align: center;
+    color: #FF5B59;
+}
+
+.main .content {
+    display: flex;
+}
+
+.main .content .card h4 {
+    text-align: center;
+}
+
+.main .content .card .menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.main .content .card .menu .left img {
+    height: 65px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.main .content .card .menu .right {
+    padding-top: 20px;
+    color:#000;
+    text-align: center;
+}
+
+.main .content .card .menuPrime{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.main .content .card .menuPrime .left img {
+    height: 55px;
+    width: 85px;
+    margin-top: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.main .content .card .menuPrime .right {
+    padding-top: 20px;
+    color:#000;
+    text-align: center;
+}
+
+.main .content .card .menuCrunchyroll{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.main .content .card .menuCrunchyroll .left img {
+    height: 70px;
+    width: 131px;
+    margin-top: 10px;
+    margin-right: -10px;
+}
+
+.main .content .card .menuCrunchyroll .right {
+    padding-top: 20px;
+    color:#000;
+    text-align: center;
+}
+
+.main .content .card .menuDeezer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.main .content .card .menuDeezer .left img {
+    height: 55px;
+    width: 100px;
+    margin-top: 16px;
+}
+
+.main .content .card .menuDeezer .right {
+    padding-top: 20px;
+    color:#000;
+    text-align: center;
+}
+
+.main .content h4 {
+    text-align: center;
+    margin-top:30px;
+}
+
+footer{
+    margin-top: 40px;
+    background-color: #FF5B59;
+    color: #fff;
+    padding: 30px 90px;;
+}
+footer h1{
+    font-family: 'Product Sans', sans-serif;
+    border-bottom: 1px solid white;
+    width: 20%;
+    padding-bottom: 5px;
+}
+
+footer .service {
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 584px) {
+	nav .onglets {
+        align-items: center;
+		margin-left: 0px;
+        margin-bottom: 20px;
+	}
+
+    .main .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@-webkit-keyframes shadow-drop-2-center {
+  0% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translateZ(50px);
+            transform: translateZ(50px);
+    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+            box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
+}
+@keyframes shadow-drop-2-center {
+  0% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translateZ(50px);
+            transform: translateZ(50px);
+    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+            box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
+}
